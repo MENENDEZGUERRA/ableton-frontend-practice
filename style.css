@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Zilla+Slab:ital@1&display=swap');
+
+body {
+    font-size: 20px;
+    font-family: 'Amarante', cursive;
+    font-family: 'Zilla Slab', serif;   
+    
+}
+.header{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+    border-style: solid;
+    border-color: white white #d5b3ff white;
+
+    padding: 15px;
+}
+
+
+/* logo */
+
+.logo-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+#logo {
+    width: 5vh;
+    height: auto;
+}
+
+/*left links */
+.links-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#more {
+    color: #ff764d;
+}
+
+/* right links */
+.links-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    justify-content: end;
+    flex-grow: 2;
+    padding-right: 20px;
+
+}
+
+#try {
+    color: #0000ff;
+}
+
+/* extra links */
+.extra-links {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: start;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#about {
+    color: #ff764d;
+}
