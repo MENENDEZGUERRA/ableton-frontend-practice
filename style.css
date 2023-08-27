@@ -71,3 +71,93 @@ body {
 #about {
     color: #ff764d;
 }
+
+/*about section */
+#about-pic{
+    width: 150vh;
+    height: auto;
+}
+
+.main-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#blue-link{
+    color: #0000ff;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    gap: 0px;
+    margin: 0;
+}
+
+/*about gallery */
+.main-about-gallery{
+    display: flex;
+    overflow: visible;
+    gap: 20px;
+}
+
+.gallery-img-container {
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    width: 50vh;
+    position: relative;
+}
+
+.main-about-gallery-bg{
+    background-color:#fbffa7;
+    width: 90vh;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    justify-self: flex-end;
+    align-items: center;
+    overflow: visible;
+
+
+    padding:10vh;
+
+
+}
+
+
+
+#img-2 {
+    width: 50vh;
+    
+}
+
+#img-1{
+    width: 70vh;
+    height: 70vh;
+    overflow: visible;
+}
+
+/*about 2 */
+.about-2 {
+    margin: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+.about-2-text {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    gap: 0px;
+    margin: 0;
+}
