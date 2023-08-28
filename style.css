@@ -15,6 +15,7 @@ body {
     border-color: white white #d5b3ff white;
 
     padding: 15px;
+    margin: 0;
 }
 
 
@@ -160,4 +161,68 @@ h1 {
     width: 100vh;
     gap: 0px;
     margin: 0;
+}
+
+/*about 3 */
+.about-3 {
+    margin: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+.about-3-text {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    gap: 0px;
+    margin: 0;
+}
+
+.about-3-gallery{
+    display: flex;
+    overflow: visible;
+    gap: 0px;
+}
+
+.about-3-gallery-bg{
+    background-color: #b6ffc0;
+    width: 100vh;
+    height: 120vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-self: flex-end;
+    align-items: center;
+    overflow: visible;
+    align-self: flex-start;
+
+    
+    gap: 10vh;
+
+
+
+}
+
+.about-3-img-container{
+    display: flex;
+    align-items: center;
+    
+    overflow: visible;
+}
+
+#img-6{
+    width: 50vh;
+}
+
+#img-4{
+    width: 50vh;
+}
+
+#img-5{
+    width: 70vh;
+    height: 70vh;
+    position: relative;
+
 }
